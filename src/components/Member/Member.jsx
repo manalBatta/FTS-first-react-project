@@ -7,6 +7,7 @@ export default function Member({ member }) {
     <>
       <tr>
         <td>
+
           <FontAwesomeIcon icon={faUser} style={{ color: color }} />
           <span style={{ color: color, margin: "5px" }}>{member.name}</span>
         </td>
